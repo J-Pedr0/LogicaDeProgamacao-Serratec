@@ -5,13 +5,13 @@
 programa
 {
 	inteiro numeroDigitado = 0, i
-	real media, numerosNegativosPer, numerosPositivosPer, soma = 0.0, numerosNegativos = 0, numerosPositivos = 0
+	real media, numerosNegativosPer, numerosPositivosPer, soma = 0.0, numerosNegativos = 0.0, numerosPositivos = 0.0
 	
 	funcao inicio()
 	{
 
 		para(i = 1; i < 11; i++){
-			escreva("Digite aqui 10números. Número ", i, ": ")
+			escreva("Digite aqui 10 números. Número ", i, ": ")
 			leia(numeroDigitado)
 			
 			soma = soma + (numeroDigitado)
@@ -39,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 175; 
+ * @POSICAO-CURSOR = 298; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
